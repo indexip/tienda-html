@@ -11,6 +11,24 @@
 
 
     <a href="https://tienda-html.netlify.app/">REGRESAR</a>
+
+
+    <script>
+
+        const url = new URL(window.location.href);
+
+
+const params = new URLSearchParams(url.search);
+
+
+const nombre = params.get('nombre');
+const apellido = params.get('apellido');
+
+
+// Muestra los valores en el HTML
+document.getElementById('nombre').textContent = nombre + '' + apellido;
+
+    </script>
     
 </body>
 </html>
