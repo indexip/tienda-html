@@ -1,0 +1,15 @@
+
+@media screen and (min-width: 250px) and (max-width: 500px){
+   .container{
+    background-color: red;
+
+   }
+   
+   .btn{
+    background-color: green;
+   }
+
+   h1{
+    color: white;
+   }
+}
